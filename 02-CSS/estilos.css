@@ -1,0 +1,58 @@
+
+
+    /* h1{
+         background-color: gold;
+         color: forestgreen;
+     }
+     #uno {
+         background-color: yellow;
+         color: honeydew;
+     }
+     button{
+         background-color: forestgreen;
+         color: #1517ff;
+     }
+     #cancelar{
+         background-color:#1517ff ;
+         color: forestgreen;
+     }*/
+
+    /*body {
+        background-color: blue;
+        color: #b1abb2;
+    }
+    h1 {
+        background-color: red;
+        color: #ff6fde;
+    }
+    h2{
+        background-color: forestgreen;
+        color: #ffa1f5;
+    }
+    h3{
+        background-color: darkblue;
+        color: #34eafa;
+    }
+    div{
+        background-color: black;
+        color:white;
+    } */
+button:focus{
+    border-color: #46fa16;
+}
+button:hover{
+    background-color: #fab934;
+    color: #4554e4;
+
+}
+
+.boton-cuidado {
+    background-color: tomato;
+    color: #7d8a8b;
+}
+.boton-exito{
+    background-color: green;
+    color: #fab934;
+}
+
+
