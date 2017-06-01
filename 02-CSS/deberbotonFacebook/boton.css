@@ -8,30 +8,42 @@
     }
     nav {
         margin: 20px auto;
-        width: 90%;
-        max-width:1000px;
+        width: 1000%;
+        max-width:1500px;
     }
 
     nav ul{
         list-style: none;
+
     }
 
-    nav >ul {
+    nav > ul {
         display: table;
         overflow: hidden;
         width: 100%;
         background:aliceblue ;
         position: relative;
 
+
     }
 
     nav > ul li{
         display: table-cell;
+
+    }
+    nav >ul li a {
+        color: black;
+        text-decoration: none;
+
     }
 /*Submenu*/
+
+
     nav > ul > li:hover > ul{
 
         display: block;
+        padding: 20px;
+
         /*background:cadetblue;
         color: cadetblue;*/
 
@@ -40,48 +52,41 @@
     nav > ul > li > ul{
         display: none;
 
-
     }
 
-    /*nav > ul li a {
-        color: yellow;
-        line-height: 20px;
-        padding: 20px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        -webkit-transition: all 3s ease;
-        -moz-transition: all 3s ease;
-        -ms-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        transition: all 3s ease;
-    }*/
-
-        nav > ul > li > ul > li:hover {
-
-           background-color: black;
-            color: black;
+/*Otro menu*/
 
 
+    nav > ul > li > ul > li:hover  {
 
+            -webkit-transform: scale(1.5);
+            transform: scale(1.3);
         }
-
-/*nav > ul > li > ul{
+    nav > ul > li > ul > li>ul>li{
     display: none;
+    }
 
-nav > ul li li{
-            color: indigo;
-            line-height: 20px;
-            padding: 20px;
-            position: relative;
-            text-align: center;
-            -webkit-transition: all 3s ease;
-            -moz-transition: all 3s ease;
-            -ms-transition: all 3s ease;
-            -o-transition: all 3s ease;
-            transition: all 3s ease;
-        }*/
+    nav > ul > li > ul > li a{
+        color: palevioletred;
+    }
+
+nav > ul > li > ul > li:hover > ul > li  {
 
 
+    display: block;
+    position: absolute;
+    background: black;
+    color: white;
+    left: 0;
+    right: 0;
+    font-size: xx-small;
+        text-decoration: none;
 
 
+}
+
+
+
+
+
+           
