@@ -3,12 +3,12 @@
     padding:0;
 }
 
-    h1{
+    h3{
         width: 100%;
     }
     nav {
         margin: 20px auto;
-        width: 1000%;
+        width: 40%;
         max-width:1500px;
     }
 
@@ -42,10 +42,8 @@
     nav > ul > li:hover > ul{
 
         display: block;
-        padding: 20px;
+        padding: 35px;
 
-        /*background:cadetblue;
-        color: cadetblue;*/
 
     }
 
@@ -67,7 +65,8 @@
     }
 
     nav > ul > li > ul > li a{
-        color: palevioletred;
+        color: darkgray;
+
     }
 
 nav > ul > li > ul > li:hover > ul > li  {
@@ -75,13 +74,12 @@ nav > ul > li > ul > li:hover > ul > li  {
 
     display: block;
     position: absolute;
-    background: black;
-    color: white;
+    /*background: burlywood;*/
+    color: red;
     left: 0;
     right: 0;
     font-size: xx-small;
-        text-decoration: none;
-
+    text-decoration: none;
 
 }
 
