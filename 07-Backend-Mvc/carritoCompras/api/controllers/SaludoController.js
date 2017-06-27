@@ -25,5 +25,33 @@ module.exports = {
         else {
             return res.send("Error en metodo");
         }
+    },
+    crearUsuarioQuemado: function (req, res) {
+        var parametros = req.allParams();
+        var nuevoUsuario = {
+            nombre: parametros.nombre,
+            apellido: parametros.apellido,
+            password: parametros.password,
+            correo: parametros.correo,
+            fechaNacimiento: parametros.fechaNacimiento
+        };
+        // 1- Query Parameters nombre=Noemi
+        /* let nuevoUsuario={
+           nombre:"Noemi",
+           apellido:"Uyaguari",
+           password:"1234",
+           correo:"noe@kd.com",
+           fechaNacimiento:new Date()
+         }*/
+        //Nombre
+        Usuario.create(nuevoUsuario)
+            .exec(function (error, usuarioCreado) {
+            if (error) {
+                return res.serverError(error);
+            }
+            else {
+                return res.ok(usuarioCreado);
+            }
+        });
     }
 };
