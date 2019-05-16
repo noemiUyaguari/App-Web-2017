@@ -1,0 +1,34 @@
+##instalacion
+comando para instalar sails:
+```
+> sudo npm install -g sails
+```
+[documentacion de instalacion]
+()
+##crear una nueva aplicacion
+Archivo de aoplicacion
+```
+> said new aplicacion
+```
+"aplicacion" es el nombre de la carpeta que va a contener los archivos de saiul
+
+##levantar el servidor
+```
+> sails lift
+```
+para levantar en un diferente puerto
+
+```
+>sails lift -- port 8080
+```
+
+```
+
+```
+##comando para crear controladores
+Comado para crear controladores
+```
+> sails generate controller Saludo
+```
+
+##
